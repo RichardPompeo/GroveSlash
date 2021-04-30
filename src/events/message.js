@@ -11,7 +11,7 @@ client.on("message", (message) => {
     let embed = new MessageEmbed()
       .setColor(message.guild.me.roles.highest.color)
       .setTitle(message.author.username)
-      .setDescription(`Digite **/ajuda** para ver a lista de comandos.`);
+      .setDescription(`Digite **/help** para ver a lista de comandos.`);
     message.channel.send(embed);
   }
 });
