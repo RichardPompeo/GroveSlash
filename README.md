@@ -15,7 +15,7 @@ Para qualquer dúvida, entre em contato com ```patekzera#9999``` pelo Discord.
 ## Contribuidores
 [@DaviPatricio](https://github.com/DaviPatricio) \
 [@NitzToPix](https://github.com/NitzToPix) \
-[@DonMatch](https://github.com/DonMatch)
+[@NovexYI](https://github.com/NovexYI)
 
 
 ## Licença
