@@ -1,0 +1,35 @@
+{
+  "name": "grove-2",
+  "version": "2.0.0",
+  "description": "Grove using Lavalink + Slash Commands",
+  "main": "shard.js",
+  "repository": "https://github.com/RichardPompeo/GroveSlash",
+  "scripts": {
+    "test": "node shard.js"
+  },
+  "keywords": [
+    "lavalink",
+    "slash-commands",
+    "discord",
+    "discord.js",
+    "lavaplayer",
+    "music-bot"
+  ],
+  "author": "patek",
+  "license": "MIT",
+  "dependencies": {
+    "ascii-table": "^0.0.9",
+    "byte-size": "^7.0.1",
+    "discord-slash-commands-client": "^1.1.1",
+    "discord.js": "git+https://github.com/nab138/discord.js.git",
+    "dotenv": "^8.2.0",
+    "erela.js": "^2.3.3",
+    "erela.js-spotify": "^1.2.0",
+    "figlet": "^1.5.0",
+    "glob": "^7.1.6",
+    "lyrics-finder": "^21.7.0",
+    "music-progress-bar": "^1.0.4",
+    "nodemon": "^2.0.7",
+    "os": "^0.1.1"
+  }
+}

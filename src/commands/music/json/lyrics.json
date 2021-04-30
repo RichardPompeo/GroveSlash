@@ -1,0 +1,12 @@
+{
+  "name": "lyrics",
+  "description": "Procure pela letra de uma música.",
+  "options": [
+    {
+      "name": "query",
+      "description": "Nome da música.",
+      "required": false,
+      "type": 3
+    }
+  ]
+}

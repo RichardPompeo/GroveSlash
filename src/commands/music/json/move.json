@@ -1,0 +1,18 @@
+{
+  "name": "move",
+  "description": "Use para mover uma música para outra posição.",
+  "options": [
+    {
+      "name": "old_index",
+      "description": "Índice atual da música.",
+      "required": true,
+      "type": 4
+    },
+    {
+      "name": "new_index",
+      "description": "Índice novo da música.",
+      "required": true,
+      "type": 4
+    }
+  ]
+}

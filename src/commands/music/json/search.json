@@ -1,0 +1,12 @@
+{
+  "name": "search",
+  "description": "Use para pesquisar uma música/artista.",
+  "options": [
+    {
+      "name": "query",
+      "description": "Pesquisa de uma música.",
+      "required": true,
+      "type": 3
+    }
+  ]
+}

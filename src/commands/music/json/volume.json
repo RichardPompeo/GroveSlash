@@ -1,0 +1,12 @@
+{
+  "name": "volume",
+  "description": "Use para alterar o volume.",
+  "options": [
+    {
+      "name": "index",
+      "description": "Volume da música.",
+      "required": true,
+      "type": 4
+    }
+  ]
+}

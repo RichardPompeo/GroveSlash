@@ -1,0 +1,12 @@
+{
+  "name": "remove",
+  "description": "Use para remover uma música da queue.",
+  "options": [
+    {
+      "name": "index",
+      "description": "O índice da música.",
+      "required": true,
+      "type": 4
+    }
+  ]
+}

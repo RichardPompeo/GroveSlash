@@ -1,0 +1,22 @@
+{
+  "name": "loop",
+  "description": "Use para ativar o loop da queue/música.",
+  "options": [
+    {
+      "name": "type",
+      "description": "Loop queue ou música.",
+      "required": true,
+      "type": 3,
+      "choices": [
+        {
+          "name": "Música",
+          "value": "track"
+        },
+        {
+          "name": "Queue",
+          "value": "queue"
+        }
+      ]
+    }
+  ]
+}
