@@ -13,9 +13,10 @@ Para qualquer dúvida, entre em contato com ```patekzera#9999``` pelo Discord.
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=RichardPompeo&repo=GroveSlash&theme=tokyonight)](https://github.com/RichardPompeo/GroveSlash)
 
 ## Contribuidores
-@DaviPatricio \
-@NitzToPix \
-@DonMatch
+[@DaviPatricio](https://github.com/DaviPatricio) \
+[@NitzToPix](https://github.com/NitzToPix) \
+[@DonMatch](https://github.com/DonMatch)
+
 
 ## Licença
 [MIT](https://choosealicense.com/licenses/mit/)
