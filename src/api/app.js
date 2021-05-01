@@ -22,13 +22,11 @@ app.use("/api/guild/:id", (req, res) => {
     });
   }
 
-  if (guild && player) {
-    res.status(200).send({
-      message: "OK",
-      options: player.options,
-      queue: player.queue,
-    });
-  }
+  res.status(200).send({
+    message: "OK",
+    options: player.options,
+    queue: player.queue,
+  });
 });
 
 module.exports = app;
