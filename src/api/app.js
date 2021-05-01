@@ -11,13 +11,13 @@ app.use("/api/guild/:id", (req, res) => {
   const player = client.manager.players.get(id);
 
   if (!guild) {
-    res.status(404).send({
+    return res.status(404).send({
       error: "This guild ID is invalid.",
     });
   }
 
   if (!player) {
-    res.status(404).send({
+    return res.status(404).send({
       error: "This guild doesn't have a player.",
     });
   }
