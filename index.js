@@ -6,7 +6,7 @@ const fs = require("fs");
 const glob = require("glob");
 require("dotenv").config();
 
-const cmd = require("./src/commands/music/json/volume.json");
+// const cmd = require("./src/commands/music/json/volume.json");
 
 const token = process.env.TOKEN;
 const clientId = process.env.CLIENT_ID;
@@ -20,10 +20,25 @@ client.interactions = new interactions.Client(token, clientId);
 
 fs.readdir("./src/events/", (err, files) => {
   if (err) console.log(err);
+
   const eventsFiles = files.filter((file) => file.split(".").pop() == "js");
+
   if (eventsFiles.length <= 0) return;
+
   eventsFiles.forEach((file) => {
     require("./src/events/" + file);
+  });
+});
+
+fs.readdir("./src/api", (err, files) => {
+  if (err) console.log(err);
+
+  const eventsFiles = files.filter((file) => file.split(".").pop() == "js");
+
+  if (eventsFiles.length <= 0) return;
+
+  eventsFiles.forEach((file) => {
+    require("./src/api/" + file);
   });
 });
 

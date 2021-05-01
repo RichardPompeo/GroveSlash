@@ -1,7 +1,8 @@
 const { ShardingManager, MessageEmbed, WebhookClient } = require("discord.js");
 require("dotenv").config();
+
 const shard = new ShardingManager("./index.js", {
-  totalShards: 3,
+  totalShards: 1,
   respawn: true,
   token: process.env.TOKEN,
 });
