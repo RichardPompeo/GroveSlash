@@ -31,18 +31,6 @@ fs.readdir("./src/events/", (err, files) => {
   });
 });
 
-fs.readdir("./src/api", (err, files) => {
-  if (err) console.log(err);
-
-  const eventsFiles = files.filter((file) => file.split(".").pop() == "js");
-
-  if (eventsFiles.length <= 0) return;
-
-  eventsFiles.forEach((file) => {
-    require("./src/api/" + file);
-  });
-});
-
 client.on("ready", () => {
   console.log("Client is ready!");
 
@@ -171,5 +159,4 @@ client.login(token);
 
 module.exports = {
   client,
-  Manager,
 };
