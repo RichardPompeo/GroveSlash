@@ -1,6 +1,7 @@
 const Discord = require("discord.js");
 const interactions = require("discord-slash-commands-client");
 const Spotify = require("erela.js-spotify");
+const Deezer = require("erela.js-deezer");
 const { Manager } = require("erela.js");
 const fs = require("fs");
 const glob = require("glob");
@@ -79,7 +80,7 @@ client.manager = new Manager({
       identifier: process.env.IDENTIFIER,
     },
   ],
-  plugins: [new Spotify({ clientID, clientSecret })],
+  plugins: [new Spotify({ clientID, clientSecret }), new Deezer()],
   autoPlay: true,
   send: (id, payload) => {
     const guild = client.guilds.cache.get(id);
