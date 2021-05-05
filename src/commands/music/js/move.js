@@ -45,6 +45,7 @@ function move(interaction, client, color) {
     }
 
     const embed = new MessageEmbed()
+      .setColor(color)
       .setTitle("Música movida")
       .setDescription(
         `**${newIndex}**: [${player.queue[oldIndex - 1].title}](${
